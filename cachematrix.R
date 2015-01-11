@@ -4,6 +4,9 @@
 ## 2. cacheSolve: This function computes the inverse of the special "matrix" returned by makeCacheMatrix above. If the inverse has already been calculated (and the matrix has not changed), then the cachesolve should retrieve the inverse from the cache.
 ## It is assume that the matrices supplied are square, numerical and always invertible
 
+## The code and comments are largely based on what Roger Peng wrote as assignment 
+## description (https://github.com/diferal/ProgrammingAssignment2/blob/master/README.md).
+
 ## The function makeCacheMatrix creates a special "matrix", which is really a list containing a function to
 ## 1. set the value of the matrix (get)
 ## 2. get the value of the matrix (set)
